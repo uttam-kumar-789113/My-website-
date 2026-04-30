@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" id="portfolio" id="html_pro">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="my frist ever html project">
+    <title>Personal port-folio</title>
+    <link rel="stylesheet" href="project.css">
+  </head>
+  <body>
+    <header class="header">
+      <h2>port-folio</h2>
+      <h4>Uttam Kumar Paswan</h4>
+      <p>l am uttam kumar. l have prepared this port-folio to practice my html learning</p>
+    </header><hr>
+    <nav class="nav">
+      <label for="labout">detail description about uttam kumar</label>
+      <a href="#about" id="labout">About</a><br>
+      <label for="lqualify">detail qualification description</label>
+      <a href="#qualification" id="lqualify">Qualification</a><br>
+      <label for="lskill">detailed skill descriptionon</label>
+      <a href="#skill" id="lskill">Skills</a><br>
+    </nav><hr>
+    <main>
+      <section class="secabout">
+        <head><b id="head_about">About</b></head><br>
+        <figure id="my-photo">
+          <img src="profile.jpg" width="100" alt="my photo">
+          <figcaption><mark>Uttam Kumar</mark></figcaption>
+        </figure><br>
+        <p id="detail-about">I am uttam kumar, a learning student having interest in software skills.I have trying my best to develop a whole app or website on my own.Now i am  feeding my curiosity to know everything through chat-gpt</p>
+      </section><hr>
+      <section id="secqualification">
+        <head><b id="head_qualify">Qualification</b></head>
+        <p>I am studing in <u>M.J.I.school </u> of badlapur.In 30 days I have my SSC board exams.</p>
+      </section><hr>
+      <section id="secskill">
+        <head><b id="head_skill">Skill</b></head>
+        <table border="1">
+          <caption id="caption">Programming Skill</caption>
+          <tr>
+            <th align="center" >Programming language</td>
+            <th align="center">Description</td>
+            <th align="center">Level</td>
+          </tr>
+          <tr>
+            <td align="center">python</td>
+            <td align="center">learned deeply with application. Best for support language</td>
+            <td align="center">Advanced<br><img src="python.png" width="50"></td>
+          </tr>
+          <tr>
+            <td align="center">html</td>
+            <td align="center">learned deeply trying practise. Best for frontend</td>
+            <td align="center">Intermediate<br><img src="html.png" width="40"></td>
+          </tr>
+          <tr>
+            <td align="center">js</td>
+            <td align="center">learning ,try to master. For (logic)support language</td>
+            <td align="center">Beginner<br><img src="Js.png" width="50"></td>
+          </tr>
+        </table>
+      </section>
+    </main><hr>
+    <article class="article">
+      <head><b id="my_project">My projects</b></head><br><br>
+      <section>
+      <head>python project</head>
+      <p><i>Self development training program.A whole plan to boost consistency and dicipline.Daily activities tracking programe.</i>
+      <a href="habit_tracker.py">HABIT TRACKER</a><br>
+      <img src="python.png" width="110" alt="python_image"></p>
+      <head>html project</head>
+      <p><i>Frist website to practise html programmes. To learn diffirent components of html. own port folio through acode</i>
+        <a href="#portfolio">PORT-FOLIO</a><br>
+        <img src="html.png" width="110" alt="html_image">
+      </p>
+      <iframe src="https://www.youtube.com/embed/HcOc7P5BMi4?si=EZqEFtXM8omSOSNI" width="300" loading="lazy"></iframe>
+      </section>
+    </article><hr>
+    <aside>
+      <form>
+        <label for="user_name">Name: </label>
+        <input id="user_name" type="name" pattern="[A-Za-z ]+" placeholder="enter your fullname" required><br>
+        <label for="user_email">Email: </label>
+        <input id="user_email" type="email" placeholder="enter email here" required><br>
+        <label for="user_contact">Contact no.</label>
+        <input id="user_contact" type="number" pattern="[0-9]{10,}" placeholder="enter your contact no." required><br>
+        <label for="user_feedback">Feedback</label>
+        <textarea id="user_feedback" cols="40" rows="3" placeholder="give your feedback" required></textarea><br>
+        <button id="btn" type="submit">Submit</button>
+      </form>
+    </aside>
+    <div>contact: 5566778899<br>
+    www.portfolio/uttam.com</div>
+    <footer id="copyright">&copy;uttam kumar 2026</footer>
+  </body>
+</html>

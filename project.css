@@ -1,0 +1,55 @@
+.header{
+  text-align: center;
+}
+.article{
+  text-align: center;
+}
+#detail-about{
+  text-align: center;
+  color: white;
+}
+#my-photo{
+  text-align: center
+  
+}
+.nav{
+  text-align: center;
+}
+body{
+  background-color: yellow;
+}
+article{
+  background-color: green;
+  color: white;}
+  
+  
+#secskill{
+  background-color: pink;
+  text-align: center;
+}
+#secqualification{
+  background-color: orange;
+  text-align: center;
+}
+.secabout{
+  text-align: center;
+  background-color: purple;
+}
+
+
+#head_about{
+  color: white;
+}
+#head_skill{
+  color: blue;
+}
+#my_project{
+  color: blue;
+}
+#head_qualify{
+  color: blue;
+}
+#btn{
+  align: center;
+  color: white;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0 ">
+    <meta name="author" content="uttam kumar">
+    <title>Daily Form</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body style="text-align:center;background-color:brown;">
+    <header style="background-color:black;color:white;">
+      <h1>Score Chart</h1>
+    </header>
+    <main>
+      <form action="score_board.html" method="get">
+        <table cellspacing="30" style="color:white;">
+          <tr>
+            <th>FIELD</th>
+            <th>HIGH</th>
+            <th>MEAN</th>
+            <th>LOW</th>
+          </tr>
+          <tr>
+            <td>
+              <label for="C1">Coding:     </label>
+            </td>
+            <td>
+              <input required type="radio" name="c" id="C1" value="10">
+            </td>
+            <td>
+              <input type="radio" name="c" value="5">
+            </td>
+            <td>
+              <input type="radio" name="c" value="1">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="S1">Discipline:</label>
+            </td>
+            <td>
+              <input required type="radio" name="s"id="S1" value="10">
+            </td>
+            <td>
+              <input type="radio" name="s" value="5">
+            </td>
+            <td>
+              <input type="radio" name="s" value="1">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="W1">Workout:     </label>
+            </td>
+            <td>
+              <input required type="radio" name="w"id="W1" value="10">
+            </td>
+            <td>
+              <input type="radio" name="w" value="5">
+            </td>
+            <td>
+              <input type="radio" name="w" value="1">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="P1">Calm-Patient:</label>
+            </td>
+            <td>
+              <input required type="radio" name="p"id="P1" value="10">
+            </td>
+            <td>
+              <input type="radio" name="p" value="5">
+            </td>
+            <td>
+              <input type="radio" name="p" value="1">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="F1">Clan:      </label>
+            </td>
+            <td>
+              <input required type="radio" name="f"id="F1" value="10">
+            </td>
+            <td>
+              <input type="radio" name="f" value="5">
+            </td>
+            <td>
+              <input type="radio" name="f" value="1">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4" style="text-align:center;">
+              <button type="submit" style="background-color:blue;color:white;">Save
+              </button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </main>
+    <script src="Class.js"></script>
+  </body>
+</html>
